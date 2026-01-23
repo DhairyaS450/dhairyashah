@@ -1,0 +1,353 @@
+// Portfolio Data - Dhairya Shah
+
+export const personalInfo = {
+  name: "Dhairya Shah",
+  roles: [
+    "Full-Stack Developer",
+    "Entrepreneur",
+    "IB Student",
+    "Problem Solver",
+  ],
+  tagline: "Building AI-powered solutions that actually solve problems",
+  email: "dhairyashah2513@gmail.com",
+  phone: "(548) 390-6560",
+  location: "Kitchener, Ontario",
+  linkedin: "https://linkedin.com/in/dhairya-bhaumik-shah",
+  github: "https://github.com/DhairyaS450",
+  currentSchool: "Cameron Heights Collegiate Institute",
+  program: "International Baccalaureate (IB)",
+  gpa: "4.0",
+  graduationYear: "2027",
+};
+
+export const heroStats = [
+  { label: "Monthly Active Users", value: "200+" },
+  { label: "Freelance Revenue", value: "$2,000+" },
+  { label: "Hackathon Wins", value: "5+" },
+  { label: "GPA", value: "4.0 UW / 4.4 W" },
+];
+
+export const skills = {
+  languages: ["JavaScript (ES6+)", "TypeScript", "Python", "HTML/CSS", "Java"],
+  frameworks: ["React.js", "Next.js", "Tailwind CSS", "Node.js", "React Native"],
+  backend: ["Firebase", "Supabase", "MongoDB", "REST APIs"],
+  tools: ["Git/GitHub", "Vercel", "CI/CD Pipelines"],
+  ai: ["TensorFlow", "PyTorch", "OpenCV", "LLM Prompt Engineering", "AI Agents"],
+};
+
+export const experiences = [
+  {
+    id: 1,
+    title: "Co-Founder",
+    company: "TidalTasks",
+    location: "Kitchener, ON",
+    period: "May 2025 – Present",
+    description: "AI-powered scheduling platform making time management fun and easy for students.",
+    highlights: [
+      "Built an AI-powered website + mobile app (in review) for student productivity",
+      "Successfully onboarded and maintained 200+ monthly active users",
+      "Received $1,000 grant from Waterloo Youth Creativity Fund (YCF)",
+      "Selected as one of 12 speakers at Canadian Youth Club Summit (CYCS 2025)",
+    ],
+    tech: ["Next.js", "React Native", "TailwindCSS", "Gemini API", "Vercel"],
+    type: "entrepreneurship",
+  },
+  {
+    id: 2,
+    title: "Software Engineer Intern",
+    company: "TMAS Academy",
+    location: "Remote",
+    period: "June 2025 – July 2025",
+    description: "Led website migration and AI development initiatives.",
+    highlights: [
+      "Spearheaded full-scale migration from Wix to Next.js + React + Tailwind CSS stack",
+      "Improved site speed and SEO through modern architecture",
+      "Prepared technical foundation for AI Tutor agent trained on AP textbooks",
+      "Built reusable, responsive components for navigation and landing pages",
+    ],
+    tech: ["Next.js", "React", "Tailwind CSS", "AI/ML"],
+    type: "work",
+  },
+  {
+    id: 3,
+    title: "Freelance Web Developer",
+    company: "Self-Employed",
+    location: "Kitchener, ON",
+    period: "June 2025 – August 2025",
+    description: "Delivered custom web solutions for local businesses.",
+    highlights: [
+      "Generated over $2,000 in revenue in a single summer",
+      "Built 5 professional websites for various industries",
+      "Clients included financial consulting firm, cell phone repair shop, restaurants",
+      "Handled UI/UX design, SEO optimization, backend integration, and AI features",
+    ],
+    tech: ["Next.js", "React", "Tailwind CSS", "Firebase", "SEO"],
+    type: "work",
+  },
+  {
+    id: 4,
+    title: "IT Associate",
+    company: "Youth Venture International",
+    location: "Remote",
+    period: "August 2025 – November 2025",
+    description: "Upgraded organization infrastructure and built event management systems.",
+    highlights: [
+      "Upgraded organization's website and integrated Firebase for secure data management",
+      "Built custom event management system for 'Venture Vision' pitch competition",
+      "Implemented real-time data handling for live Shark-Tank style event",
+    ],
+    tech: ["Firebase", "React", "Event Management"],
+    type: "work",
+  },
+];
+
+export const leadership = [
+  {
+    id: 1,
+    title: "High Agency Fellow",
+    organization: "High Agency (Alpha Cohort)",
+    period: "October 2025 – Present",
+    description: "Selected for elite fellowship focused on extreme productivity, ownership, and technical execution.",
+  },
+  {
+    id: 2,
+    title: "1st Place Winner",
+    organization: "UW Catalyst Early Entrepreneur Program",
+    period: "July 2025",
+    description: "Won final venture pitch competition. Also led team to victory in cardboard boat engineering challenge.",
+  },
+  {
+    id: 3,
+    title: "Provincial Competitor",
+    organization: "Ontario DECA",
+    period: "Sept 2024 – Feb 2025",
+    description: "Top 10 at Regionals in Entrepreneurship cluster. Advanced to Provincials.",
+  },
+  {
+    id: 4,
+    title: "Coding Club Lead",
+    organization: "Cameron Heights CI",
+    period: "2024 – Present",
+    description: "Leading the school's coding club, organizing workshops and hackathon prep sessions.",
+  },
+];
+
+export const volunteering = [
+  {
+    title: "Recreation Volunteer",
+    organization: "Village of Winston Park",
+    period: "Ongoing",
+    description: "Weekly commitment facilitating social engagement for seniors through trivia, board games, and social sessions.",
+  },
+  {
+    title: "Event Volunteer",
+    organization: "TEDx Centreville Chicopee Youth",
+    period: "June 2024",
+    description: "Managed registration desk and check-in flow for 150+ attendees at professional youth conference.",
+  },
+  {
+    title: "Food & Logistics Volunteer",
+    organization: "Hack the North",
+    period: "Sept 2024",
+    description: "Supported Canada's largest hackathon managing food distribution and ticket scanning for 1,000+ hackers.",
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "TidalTasks",
+    tagline: "AI-Powered Student Productivity",
+    description: "Full-stack scheduling platform using AI to help students manage their time. Features intelligent task prioritization, calendar integration, and a gamified experience.",
+    tech: ["Next.js", "React Native", "TailwindCSS", "Gemini API", "Vercel"],
+    highlights: ["200+ MAU", "$1,000 YCF Grant", "CYCS 2025 Speaker"],
+    github: "https://github.com/DhairyaS450/track-ai-web",
+    live: "https://tidaltasks.app",
+    image: "/images/tidaltasks-web.png",
+    images: ["/images/tidaltasks-web.png", "/images/tidaltasks-2.png", "/images/tidaltasks-3.png"],
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Shurplus",
+    tagline: "Food Bank Logistics Platform",
+    description: "All-in-one platform for food bank operations. Streamlines inventory management, volunteer coordination, and distribution logistics.",
+    tech: ["React", "Node.js", "MongoDB", "Express"],
+    highlights: ["3rd Place at Neodev", "$200 Prize"],
+    github: "https://github.com/DhairyaS450",
+    image: "/images/shurplus.jpg",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "EcoReceipt",
+    tagline: "Sustainability Score Scanner",
+    description: "Scan receipts and get instant sustainability scores for your purchases. Helps users make more eco-conscious shopping decisions.",
+    tech: ["React", "MongoDB", "OCR", "Node.js"],
+    highlights: ["Best Use of MongoDB at SproutHacks"],
+    github: "https://github.com/DhairyaS450",
+    image: "/images/ecoreceipt.png",
+    featured: true,
+  },
+  {
+    id: 4,
+    title: "CHCI Coding Club Website",
+    tagline: "School Club Platform",
+    description: "Official website for Cameron Heights Coding Club. Features event management, resource sharing, and member registration.",
+    tech: ["Next.js", "Tailwind CSS", "Firebase"],
+    highlights: ["Live in production"],
+    github: "https://github.com/DhairyaS450",
+    image: "/images/coding-club.png",
+    featured: false,
+  },
+  {
+    id: 5,
+    title: "Face Detection Project",
+    tagline: "Computer Vision",
+    description: "Real-time face detection application using OpenCV and Python. Implements various detection algorithms and tracking.",
+    tech: ["Python", "OpenCV", "TensorFlow"],
+    highlights: ["Real-time processing"],
+    github: "https://github.com/DhairyaS450",
+    image: "/images/face.png",
+    featured: false,
+  },
+  {
+    id: 6,
+    title: "AI Snake Game",
+    tagline: "Reinforcement Learning",
+    description: "Classic snake game with an AI agent that learns to play using reinforcement learning. Watch the AI improve over time.",
+    tech: ["Python", "PyTorch", "Pygame"],
+    highlights: ["Self-learning AI"],
+    github: "https://github.com/DhairyaS450",
+    image: "/images/snake.png",
+    featured: false,
+  },
+];
+
+export const achievements = [
+  {
+    id: 1,
+    title: "Youth Tech Labs Demo Day",
+    subtitle: "2x Winner",
+    description: "Won twice at Youth Tech Labs Demo Day pitch competition, earning $500 in total prizes",
+    image: "/images/tidaltasks-web.png",
+    year: "2024",
+    category: "entrepreneurship",
+    rank: 1,
+  },
+  {
+    id: 2,
+    title: "CHCI Chess Tournament",
+    subtitle: "1st Place",
+    description: "Won the school chess tournament, demonstrating strategic thinking and competitive spirit.",
+    image: "/images/chess_shirt_prize.jpg",
+    year: "2024",
+    category: "competition",
+    rank: 2,
+  },
+  {
+    id: 3,
+    title: "Neodev Hackathon",
+    subtitle: "3rd Place Overall, $200 Prize",
+    description: "Placed 3rd overall at Neodev Hackathon with Shurplus, a food bank logistics platform. Won $200 prize.",
+    image: "/images/shurplus.jpg",
+    year: "2025",
+    category: "hackathon",
+    rank: 3,
+  },
+  {
+    id: 4,
+    title: "Canadian Computing Contest",
+    subtitle: "Junior Honor Roll (73/75)",
+    description: "Scored 73/75 on the CCC Junior division, placing on the Honor Roll for exceptional performance.",
+    image: "/images/ccc_score.png",
+    year: "2025",
+    category: "academic",
+  },
+  {
+    id: 5,
+    title: "SproutHacks",
+    subtitle: "Best Use of MongoDB",
+    description: "Won 'Best Use of MongoDB' award at SproutHacks for EcoReceipt, a sustainability scoring app.",
+    image: "/images/ecoreceipt.png",
+    year: "2024",
+    category: "hackathon",
+  },
+  {
+    id: 6,
+    title: "Cayley Math Contest",
+    subtitle: "Distinction",
+    description: "Achieved distinction on the University of Waterloo Cayley Mathematics Contest.",
+    image: "/images/cayley.png",
+    year: "2024",
+    category: "academic",
+  },
+  {
+    id: 7,
+    title: "UW Catalyst Program",
+    subtitle: "1st Place Pitch Winner",
+    description: "Won the final venture pitch competition at University of Waterloo's Catalyst Early Entrepreneur Program.",
+    image: "/images/profile1.jpg",
+    year: "2025",
+    category: "entrepreneurship",
+  },
+  {
+    id: 8,
+    title: "CYCS 2025 Speaker",
+    subtitle: "1 of 12 Selected",
+    description: "Selected as one of only 12 speakers at the Canadian Youth Club Summit to present TidalTasks.",
+    image: "/images/cycs.png",
+    year: "2025",
+    category: "entrepreneurship",
+  },
+  {
+    id: 9,
+    title: "CIMC Math Contest",
+    subtitle: "Distinction",
+    description: "Achieved distinction on the Canadian Intermediate Mathematics Contest.",
+    image: "/images/cimc.jpg",
+    year: "2024",
+    category: "academic",
+  },
+  {
+    id: 10,
+    title: "DECA Regionals",
+    subtitle: "Top 10 ETDM",
+    description: "Placed in Top 10 for Entrepreneurship Team Decision Making at DECA Regionals, advancing to Provincials.",
+    image: "/images/deca.jpg",
+    year: "2025",
+    category: "competition",
+  },
+];
+
+export const education = {
+  school: "Cameron Heights Collegiate Institute",
+  location: "Kitchener, ON",
+  program: "International Baccalaureate (IB) Diploma Candidate",
+  graduationYear: "2027",
+  gpa: "4.0",
+  clubs: ["Coding Club (Lead)", "DECA", "STEAM ICAC", "Tech Entrepreneurship Club", "Cross Country"],
+  coursework: ["Computer Science", "Mathematics", "Physics"],
+};
+
+export const languages = [
+  { name: "English", level: "Native/Bilingual" },
+  { name: "Gujarati", level: "Professional Working" },
+  { name: "Hindi", level: "Limited Working" },
+  { name: "French", level: "Limited Working" },
+];
+
+export const hobbies = [
+  { emoji: "🎸", name: "Guitar", detail: "Self-taught, play regularly" },
+  { emoji: "♟️", name: "Chess", detail: "1700 rated on Chess.com" },
+  { emoji: "🏋️", name: "Gym", detail: "Consistent training" },
+];
+
+export const navigation = [
+  { name: "Home", href: "/" },
+  { name: "Projects", href: "/projects" },
+  { name: "Experience", href: "/experience" },
+  { name: "Achievements", href: "/achievements" },
+  { name: "About", href: "/about" },
+  { name: "Contact", href: "/contact" },
+];

@@ -349,5 +349,6 @@ export const navigation = [
   { name: "Experience", href: "/experience" },
   { name: "Achievements", href: "/achievements" },
   { name: "About", href: "/about" },
+  { name: "Resume", href: "/resume" },
   { name: "Contact", href: "/contact" },
 ];
